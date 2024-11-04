@@ -4,16 +4,42 @@ import QRGenerator from '../components/QRGenerator';
 import { QrCode } from 'lucide-react';
 ---
 
-<Layout title="QR Code Generator">
+<Layout title="Generador de Código QR">
   <main class="min-h-screen bg-gradient-to-br from-purple-100 to-indigo-100 p-6">
     <div class="max-w-2xl mx-auto">
-      <div class="bg-white rounded-2xl shadow-xl p-8">
+      <div class="bg-white rounded-lg shadow-xl p-8">
         <div class="flex items-center gap-3 mb-8">
           <QrCode className="w-8 h-8 text-indigo-600" />
-          <h1 class="text-3xl font-bold text-gray-800">QR Code Generator</h1>
+          <h1 class="text-3xl font-bold text-gray-800">Generador de Código QR</h1>
         </div>
         <QRGenerator client:load />
+        <div class="footer">
+          <p class="text-sm text-gray-600 text-center mt-2">
+            Desarrollado por 
+            <a 
+              class="link-porfolio" 
+              href="https://my-porfolio-omega-wheat.vercel.app/"
+              target="_blank"
+            >
+              Martinez Juan Cruz
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   </main>
 </Layout>
+
+<style>
+  .link-porfolio {
+    color: #3182ce;
+    text-decoration: none;
+  }
+  .link-porfolio:hover {
+    opacity: 0.7;
+  }
+  .footer {
+    margin-top: 0.8rem;
+    text-align: center;
+  }
+</style>

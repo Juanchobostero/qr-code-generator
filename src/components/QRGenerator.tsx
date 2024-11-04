@@ -48,7 +48,7 @@ export default function QRGenerator() {
     <div className="space-y-6">
       <div>
         <label htmlFor="url" className="block text-sm font-medium text-gray-700 mb-2">
-          Enter URL to generate QR code
+          Ingresar URL para generar el código QR
         </label>
         <div className="relative">
           <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
@@ -76,7 +76,7 @@ export default function QRGenerator() {
           )}
         </div>
         {!isValidUrl && (
-          <p className="mt-2 text-sm text-red-600">Please enter a valid URL</p>
+          <p className="mt-2 text-sm text-red-600">Ingresar una URL válida</p>
         )}
       </div>
 
@@ -92,9 +92,9 @@ export default function QRGenerator() {
           <a
             href={qrCodeUrl}
             download="qrcode.png"
-            className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
-            Download QR Code
+            Descargar QR
           </a>
         </div>
       )}
