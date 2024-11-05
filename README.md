@@ -6,16 +6,16 @@ Generador de código QR desarrollado con Astro, React. QRCode & Tailwindcss
 
 ## 🚀 Iniciar Proyecto
 
-1. Clone this repository
-2. Install dependencies:
+1. Clonar repositorio
+2. Instalar dependencias:
 ```bash
 npm install
 ```
-3. Start the development server:
+3. Iniciar servidor de desarrollo:
 ```bash
 npm run dev
 ```
-4. Open your browser and navigate to `localhost:4321`
+4. Abrir navegador y navegar a `localhost:4321`
 
 ## 🎮 Cómo usar
 
