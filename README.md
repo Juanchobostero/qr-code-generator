@@ -26,8 +26,6 @@ npm run dev
 ## 🛠️ Tech Stack
 
 - [Astro](https://astro.build) - Web framework
-- HTML Canvas - Game rendering
-- TypeScript - Game logic
 
 ## 🧞 Comandos
 
